@@ -1,14 +1,20 @@
 body {
     margin: 0;
 }
+header {
+    width: 100%;
+}
 .header {
-    width: 1000px;
+    width: 100%;
     height: 72px;
     background-color: #fffabe;
 }
 .header img {
     margin-top: 22px;
     margin-left: 40px;
+}
+.header_pic {
+    width:100%;
 }
 .header ul {
     list-style-type: none;
@@ -30,6 +36,9 @@ body {
 }
 .header li a:hover {
     color: #d42551;
+}
+section {
+    width: 100%;
 }
 .columns {
     width: 1000px;
@@ -120,10 +129,11 @@ body {
     color: white;
 }
 footer {
-    width: 1000px;
+    width: 100%;
     height: 80px;
     background-color: #df5277;
     text-align: center;
+    display: block;
 }
 footer ul {
     list-style-type: none;
@@ -134,13 +144,12 @@ footer ul {
     position: relative;
 }
 footer li {
-    display: inline-block;
+    display: inline;
     color: white;
-    width: 25%;
 }
 footer li:nth-of-type(2) {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 #footer_img1 {
     padding-right: 20px;
@@ -203,7 +212,8 @@ footer p {
 .gift_bkgnd {
     background-image: url("assets/images/gifts-parties-background.png");
     background-repeat: no-repeat;
-    width: 1000px;
+    background-size: 100%;
+    width: 100%;
     height: 600px;
     margin-bottom: 10px;
 }
@@ -247,6 +257,10 @@ section .headers {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #6a6969;
+}
+.container {
+    width: 53vw;
+    margin: auto;
 }
 
 
