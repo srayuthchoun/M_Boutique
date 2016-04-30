@@ -6,27 +6,31 @@
     <title>MBoutique</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
-<body>
+<body data-ng-app="app">
     <header class="container">
         <div id="nav" class="row">
             <div class="col-sm-3 text-center">
-                <img src="assets/images/logo.png" alt="Mboutique logo">
+                <img src="assets/images/logo.png" class="logo" alt="Mboutique logo">
             </div>
             <div class="col-sm-9">
                 <div class="pull-right text-center">
-                    <a href="#contact">CONTACT</a>
-                    <a href="#our_macarons">OUR MACARONS</a>
-                    <a href="#gifts_and_parties">GIFTS & PARTIES</a>
-                    <a href="#contact">CONTACT</a>
+                    <a ui-sref="welcome">WELCOME</a>
+                    <a ui-sref="our_macarons">OUR MACARONS</a>
+                    <a ui-sref="gifts_and_parties">GIFTS & PARTIES</a>
+                    <a ui-sref="contact">CONTACT</a>
                 </div>
             </div>
         </div>
     </header>
 
     <section class="container">
-        <div></div>
+        <div ui-view autoscroll="false"></div>
     </section>
 
     <footer class="container">
