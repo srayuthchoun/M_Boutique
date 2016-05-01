@@ -24,5 +24,5 @@ This project was originally designed to understand html layout and css styling u
 >*Gifts & Parties Page*
 ![alt text](assets/design_docs/gift-&-parties_exp.png "Gift & Parties page")
 
->*Contact Page**
+>*Contact Page*
 ![alt text](assets/design_docs/contact_exp.png "Contact page")
