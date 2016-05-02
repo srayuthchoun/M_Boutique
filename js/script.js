@@ -2,7 +2,7 @@
 var app = angular.module('MBapp', ['ui.router']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/welcome');
 
     $stateProvider
 
