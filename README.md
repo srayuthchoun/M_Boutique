@@ -4,8 +4,8 @@
 This project was originally designed to understand html layout and css styling using design docs that were provided from a fictitious company named MBoutique.  After completing the project, I decided to make the site more responsive using Bootstrap. Also, making the site load faster to different content using Angular routing.
 
 ##Implemented Features
-1. Mobile Responsive
-2. Angular Routing
+- Mobile Responsive
+- Angular Routing
 
 > The MBoutique webstite contains four separate pages
   - Welcome
